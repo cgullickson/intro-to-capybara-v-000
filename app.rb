@@ -1,5 +1,5 @@
 class Application < Sinatra::Base
-  post '/greet' do
+  post '/' do
     erb :greet
   end
 end
