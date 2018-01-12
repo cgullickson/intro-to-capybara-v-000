@@ -1,7 +1,7 @@
 class Application < Sinatra::Base
   # Old route from previous tests
   get '/' do
-    erb :greet
+    erb :index
   end
 
   # New route to respond to the form submission
